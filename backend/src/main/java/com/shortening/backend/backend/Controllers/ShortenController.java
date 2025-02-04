@@ -14,6 +14,7 @@ import com.shortening.backend.backend.Repositories.ShortenRepository;
 
 import jakarta.persistence.EntityNotFoundException;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,6 +24,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 
 @RestController
 @RequestMapping("/shorten")
+@CrossOrigin(origins = "http://localhost:5173")
 public class ShortenController {
     @Autowired 
     private ShortenRepository shortenRepository;
