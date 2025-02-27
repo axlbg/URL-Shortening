@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="container-fluid">
         <Link className="navbar-brand flex-grow-1 ">
           <img
-            src="/favicon.ico"
+            src="../favicon.ico"
             alt="Logo"
             width="30"
             height="24"
