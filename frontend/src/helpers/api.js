@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:8080/shorten";
+const apiUrl = "https://railway-url-shortening-production.up.railway.app/shorten";
 
 export const apiShortenUrl = async (url) => {
   const response = await fetch(apiUrl, {
