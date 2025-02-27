@@ -15,6 +15,12 @@ PostgreSQL
 _________________________________
 
 
+Live version available here: https://url-shortening-topaz.vercel.app/
+
+
+![urlshorteningervice](https://github.com/user-attachments/assets/000b3f5e-9989-405d-9a76-c688007efd30)
+
+
 <h2>What you can do in this application:</h2>
 
 * Create a new short URL
