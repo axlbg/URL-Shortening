@@ -14,3 +14,7 @@
 - DELETE /{shortCode}
 
 - GET /{shortCode}/stats
+
+
+shortCode:
+{ "url" : "https://example.com" }
